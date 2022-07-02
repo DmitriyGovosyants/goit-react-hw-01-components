@@ -22,13 +22,13 @@ export const Avatar = styled.img`
   border-radius: 50%;
 `
 
-export const Username = styled.p`
+export const UserName = styled.p`
   margin-top: 30px;
   font-size: 20px;
   font-weight: 700;
 `
 
-export const DescriptionText = styled.p`
+export const UserInfo = styled.p`
   margin-top: 10px;
 
   font-size: 14px;
