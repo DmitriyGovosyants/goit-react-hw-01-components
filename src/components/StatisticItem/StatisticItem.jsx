@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   StatisticBox,
   StatisticLabel,
@@ -11,4 +12,9 @@ export const StatisticItem = ({ label, percentage }) => {
       <StatisticData>{percentage}%</StatisticData>
     </StatisticBox>
   );
+};
+
+StatisticItem.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };

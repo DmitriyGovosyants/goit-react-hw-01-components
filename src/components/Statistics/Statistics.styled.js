@@ -11,6 +11,7 @@ export const Container = styled.section`
 export const Title = styled.h2`
   text-align: center;
   padding: 20px 10px;
+  font-size: 18px;
 `
 
 export const StatisticsList = styled.ul`
