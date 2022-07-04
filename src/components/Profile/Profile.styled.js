@@ -42,7 +42,7 @@ export const Stats = styled.ul`
   
 `
 
-export const StatItem = styled.li`
+export const Item = styled.li`
   display: flex;
   flex-basis: calc(100% / 3 );
   flex-direction: column;
@@ -56,13 +56,13 @@ export const StatItem = styled.li`
   }
 `
 
-export const StatLabel = styled.span`
+export const Label = styled.span`
   font-size: 12px;
   font-weight: 600;
   color: rgb(180, 180, 180);
 `
 
-export const StatValue = styled.span`
+export const Value = styled.span`
   margin-top: 5px;
   font-size: 14px;
   font-weight: 700;

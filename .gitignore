@@ -2,7 +2,7 @@
 
 #Junk
 .DS_Store
-.vscode/
+.vs/
 .idea/
 
 # dependencies
