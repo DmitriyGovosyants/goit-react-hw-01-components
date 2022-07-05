@@ -1,3 +1,3 @@
 export function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+  return `#${(Math.random().toString(16) + '000000').substring(2,8).toUpperCase()}`
 }
