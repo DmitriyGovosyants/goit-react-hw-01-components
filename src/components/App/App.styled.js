@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { device } from "constants/Constants";
+import { device } from "utils/constants";
 
 export const Page = styled.div`
   width: 100%;
