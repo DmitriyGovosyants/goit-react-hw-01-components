@@ -19,7 +19,6 @@ export const FriendItem = styled.li`
 `
 
 export const Status = styled.span`
-  /* display: block; */
   width: 15px;
   height: 15px;
 

@@ -1,10 +1,13 @@
 import { Page, Section } from './App.styled';
 import { Profile } from 'components/Profile/Profile';
-import user from 'components/Profile/user';
 import { Statistics } from 'components/Statistics/Statistics';
-import data from 'components/Statistics/data';
 import { FriendList } from 'components/FriendList/FriendList';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
+
+import user from 'components/Profile/user';
+import data from 'components/Statistics/data';
 import friends from 'components/FriendList/friends';
+import transactions from 'components/TransactionHistory/transactions';
 
 export const App = () => {
   return (
@@ -23,6 +26,9 @@ export const App = () => {
       </Section>
       <Section>
         <FriendList friends={friends} />
+      </Section>
+      <Section>
+        <TransactionHistory items={transactions} />
       </Section>
     </Page>
   );
